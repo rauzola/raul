@@ -1,0 +1,24 @@
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem 1.5rem;
+
+  background: var(--surface-color);
+  border: 0.0625rem solid var(--stroke-color);
+  border-radius: 0.5rem;
+
+  backdrop-filter: blur(0.25rem);
+  -webkit-backdrop-filter: blur(0.25rem);
+
+  text-decoration: none;
+  font-weight: 500;
+
+  transition: background 0.2s;
+}
+
+.link:hover {
+  background: var(--surface-color-hover);
+  border: 0.09375rem solid var(--text-color);
+}

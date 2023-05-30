@@ -1,0 +1,15 @@
+.socialLinks {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background 0.2s;
+  border-radius: 50%;
+}
+
+.socialLinks:hover {
+  background: var(--highlight-color);
+}
